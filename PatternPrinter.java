@@ -11,10 +11,8 @@ class PatternPrinter {
         for(int i=0; i<n; i++){
             int k = n;
             for(int j=0;j<n; j++){
-                int count=0;
-                while(count<(n-i)){
+                for(int l=0;l<(n-i);l++){
                     System.out.print(k+" ");
-                    count++;
                 }
                 k--;
             }
